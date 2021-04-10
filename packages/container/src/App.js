@@ -1,9 +1,10 @@
 import React from 'react'
+import MarketingApp from './components/MarketingApp'
 
 function App() {
     return (
         <div>
-            <h1> This is react App Components</h1>
+            <MarketingApp/>
         </div>
     )
 }
