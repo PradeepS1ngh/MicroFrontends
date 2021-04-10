@@ -1,0 +1,16 @@
+{
+  "name": "mfp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "installfiles": "concurrently \"cd packages/auth && npm install\" \"cd packages/container && npm install\" \"cd packages/dashboard && npm install\" \"cd packages/marketing && npm install\"",
+    "wipe" : "rm -fr node_modules packages/**/node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.1"
+  }
+}
